@@ -1,0 +1,245 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+lfprmbModel
+</name>
+</assembly>
+<members>
+<member name="M:lfprmbModel.Tipos.oCMOXU.#ctor(lfprmbDll.CMOXU.CFType)">
+	<summary>
+	</summary>
+	<param name="miCMOXUCFType"></param>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Tipos.oCMOXU.consultaPermisosUsuario(System.String,System.String,System.Int32)">
+	<summary>
+	</summary>
+	<param name="codsis"></param>
+	<param name="rut"></param>
+	<param name="rol"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Tipos.oCMOXU.__callIspec(lfprmbDll.CMOXU)">
+	<summary>
+	</summary>
+	<param name="Ispec"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:lfprmbModel.Tipos.oCMOXU">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.toRealString(System.String)">
+	<summary>
+ '10/05/2019 creacion Pablo Cornejo 
+ </summary>
+	<param name="str"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.gMcpFormatTime(System.String)">
+	<summary>
+	</summary>
+	<param name="hora"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.gGetStringBetween2Strings(System.String,System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="source"></param>
+	<param name="firstString"></param>
+	<param name="secondString"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.gGetMd5(System.String)">
+	<summary>
+	</summary>
+	<param name="str"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.gMcpFormatDate(System.String,lfprmbModel.Funciones.DateFormats)">
+	<summary>
+	</summary>
+	<param name="fecha"></param>
+	<param name="format"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.gFormatPeriod(System.String)">
+	<summary>
+	</summary>
+	<param name="periodo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.gFormatDate(System.String)">
+	<summary>
+	</summary>
+	<param name="fecha"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.gSafeSubstring(System.String,System.Int32,System.Int32)">
+	<summary>
+  Substring seguro
+ </summary>
+	<param name="texto"></param>
+	<param name="indice"></param>
+	<param name="largo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.gFormatTime(System.String)">
+	<summary>
+  HHMMSSMS en HH:MM:SS:MS
+ </summary>
+	<param name="hora">HHMMSSMS</param>
+	<returns>HH:MM:SS</returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.gToSqlDecimal(System.String)">
+	<summary>
+  remueve separador de miles
+ remplaza separador decimal de , a .
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.gHoraCerosIzq(System.Int32)">
+	<summary>
+	</summary>
+	<param name="hora"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.gValidaRut(System.String)">
+	<summary>
+	</summary>
+	<param name="rut"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.gCleanMappingChars(System.String)">
+	<summary>
+ Reemplaza caracteres extraños del mapping.
+ </summary>
+	<param name="path"></param>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Funciones.glimpiarCadenaReporte(System.String)">
+	<summary>
+	</summary>
+	<param name="cadena"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.XmlHandler.translateInvalidCharacters(System.String)">
+	<summary>
+	</summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:lfprmbModel.XmlHandler">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="T:lfprmbModel.Tipos.oICOLI">
+	<summary>
+ 31/05/2019 jcalderón: Creación.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Tipos.oMAUSU.__IspecToModel(lfprmbDll.MAUSU)">
+	<summary>
+	</summary>
+	<param name="Ispec"></param>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Tipos.oMAUSU.__ModelToIspec">
+	<summary>
+	</summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Tipos.oMAUSU.consultar(System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="rut"></param>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Tipos.oMAUSU.agregar">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Tipos.oMAUSU.modificar">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Tipos.oMAUSU.borrar(System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="rut"></param>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Tipos.oMAUSU.__callIspec(lfprmbDll.MAUSU)">
+	<summary>
+	</summary>
+	<param name="Ispec"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:lfprmbModel.Tipos.oMAUSU">
+	<summary>
+ 09/05/2019 pcornejo: Creación.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:lfprmbModel.Tipos.oINLI3">
+	<summary>
+ 03/06/2019 rtorreblanca: creación.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.StrMappingConverter.fromMappingToString(System.String)">
+	<summary>
+	</summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:lfprmbModel.StrMappingConverter">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="P:lfprmbModel.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:lfprmbModel.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:lfprmbModel.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:lfprmbModel.Tipos.oCONTA.#ctor(lfprmbDll.CONTA.CFType)">
+	<summary>
+	</summary>
+	<param name="miCONTAFType"></param>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Tipos.oCONTA.__callIspec(lfprmbDll.CONTA)">
+	<summary>
+	</summary>
+	<param name="Ispec"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Tipos.oCONTA.consultar(System.String)">
+	<summary>
+	</summary>
+	<param name="tipreg"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:lfprmbModel.Tipos.oCONTA.consultar(System.String,System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="tipreg"></param>
+	<param name="tiporden"></param>
+	<param name="alfa2"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:lfprmbModel.Tipos.oCONTA">
+	<summary>
+ 08/05/2019 rtorreblanca: Creación.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:lfprmbModel.Tipos.oICLIC">
+	<summary>
+ 30/05/2019 rtorreblanca: Creación.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
